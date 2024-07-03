@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav ul a{
+    color: black;
+    font-size: 14px;
+
+}
+.logo{
+    width: 200px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 70px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.content {
+    background-image: url(./back5.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border: 1px solid darkolivegreen;
+    border-radius: 25px;
+    /* width: 100; */
+    height: 540px;
+    margin: 45px;
+    background-position:center;
+}
+
+.content_image {
+    /* background-image:url(back2.jpg); */
+    max-width: 100%;
+    height: 100%;
+    background-repeat:unset;
+}
+
+.content h1 {
+    width: 80%;
+    color: white;
+    font-size: 65px;
+    padding-left: 60px;
+    padding-top: 60px;
+    /* padding: 60px; */
+    font-weight: 550;
+
+}
+.content h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 60px;
+    padding-top: 30px;
+    margin-bottom: 60PX;
+    width: 70%;
+
+
+}
+.content_button1 {
+    margin-left: 60px;
+    border: 1px solid black;
+    border-radius: 35px;
+    font-size: 16px;
+    padding: 18px 75px;
+    color: white;
+    background-color: rgb(209, 217, 57);
+
+}
+.content_button1:hover {
+    background-color: black;
+}
+.finance{
+    height: 325px;
+    margin: 60px;
+    padding: 60px;
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+}
+.finance_image{
+    background-image: url(./finance.jpeg);
+    height: 250px;
+    width:50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.play_button{
+    background-color: white;
+    color: red;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+.play_button:hover{
+    background-color: black;
+    color: rgb(209, 217, 57);
+    ;
+}
+.finance_cont{
+   /* margin-left:5em; */
+   padding: 15px 0px 10px 30px;
+   width:50%;
+}
+.finance_para{
+
+}
+.finance_para h4{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.finance_para p{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.finance_button {
+    background-color:white;
+    color: black;
+    border: 1px solid rgb(86, 36, 36);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.finance_button:hover{
+    background-color: black;
+    color: white;
+}
+.about{
+    margin: 90px 80px;
+    width: 90%;
+}
+.about h3{
+    line-height: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+}
+.about p{
+    padding-top: 30px;
+    line-height: 35px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.696);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.arrow{
+    margin:30px 0px 20px  10px;
+}
+.arrow i{
+    font-size:25px;
+    color: blue;
+}
+.arrow h4{
+    display:inline;
+    font-size: 23px;
+    padding: 15px;
+    margin-bottom: 300px;
+}
+.arrow a{
+    padding: 12px;
+    display: block;
+    /* width:100%; */
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.676);
+
+}
+.arrow a:hover{
+    color: white;
+    background-color: black;
+    /* padding: 10px; */
+    width: 90%;
+}
+.brandicon{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.brandicon i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+.brandicon i:hover{
+    background-color: lightgray;
+
+}
+.img_para{
+    background-image: url(./back4.jpg);
+    margin-top: 30px;
+    height: 400px;
+    padding: 50px 0px 0px 10px;
+    width:370px;
+    border-radius: 25px;
+    color: white;
+    justify-content: space-between;
+}
+.img_para:hover{
+    box-shadow: 1px 1px 1px 1px rgb(162, 153, 153);
+}
+.img_para h1{
+    padding: 5px;
+
+}
+.img_para p{
+    padding: 5px;
+    width: 95%;
+    font-size: 20px;
+    padding-bottom: 60px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+.image_parabutton{
+     background-color:white;
+     color: black;
+     width: 35%;
+     text-align: center;
+     padding: 20px;
+     border-radius:30px;
+}
+.image_parabutton a{
+    color: rgb(202, 27, 27);
+
+}
+/* .image_parabutton a{
+    color:black;
+} */
+.image_parabutton:hover{
+    background-color: black;
+}
+.down {
+    padding: 70px;
+    background-color: whitesmoke;
+    /* padding-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.down p {
+    padding-top: 20px;
+    width: 70%;
+    font-weight: 15;
+    line-height: 35px;
+}
+
+.down h2 {
+    font-weight:lighter;
+}
+.form {
+
+    padding: 20px;
+    width: 220px;
+    margin: 10px;
+}
+.form input {
+    border-radius: 30px;
+    border: 1px solid rgb(241, 234, 234);
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+}
+.down_button {
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    width: 250px;
+    color: white;
+    /* height: 35px; */
+    display: block;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+}
+footer {
+    width: 100;
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .fa-brands {
+    font-size: 30px;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 11px;
+    color: white;
+    margin-left: 120px;
+    padding-top: 10px;
+    line-height: 23px;
+}
+
+footer input {
+    padding: 10px;
+    width: 200px;
+    /* height: 20px; */
+    /* margin: 40px; */
+    /* display: flex;
+    justify-content: space-around; */
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search a {
+    background-color: rgb(154, 105, 25);
+    color: white;
+    padding: 10px;
+}
+
+.search a:hover {
+    background-color: rgba(227, 183, 41, 0.863);
+}
+
+
+
